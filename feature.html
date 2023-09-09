@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: cadetblue;
+    }
+    #card{
+        height:400px;
+        width:300px;
+        background-color: white;
+        margin-top: 100px;
+        border-radius: 10px;
+        padding:50px;
+    }
+    #card img{
+        height:60%;
+        width: 70%;
+        object-fit:cover;
+        object-position: center;
+        border-radius: 10px;
+        padding-left: 50px;
+       
+    }
+  #card h1{
+    font-size:25px;
+    margin:10px 0;
+    
+    text-align: center;
+  }
+  #card h5{
+    font-size: 25px;
+    color:red;
+    margin:20px;
+    color:rgb(55, 55, 235);
+   
+    text-align: center;
+  }
+  #card button{
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700px;
+    padding:12px 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+ 
+</style>
+<body>
+    <div id="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA5wU_GaflQCQv8QLqBIfCr9-Ki2bYYpIPdg&usqp=CAU">
+    <h1>Virat Kholi</h1>
+    <h5>Follow</h5>
+    <div id="btn-container">
+        <button id="add">Follow</button>
+        <button id="remove">Unfollow</button> 
+    </div>
+    </div>
+    <script src="feature.js"></script>
+</body>
+</html>
